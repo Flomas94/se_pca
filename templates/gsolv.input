@@ -1,0 +1,7 @@
+ctd=BP_TZVPD_FINE_21.ctd cdir=/scrcluster/fmast/programme/cosmotherm/COSMOtherm/CTDATA-FILES
+fdir=/scrcluster/fmast/programme/cosmotherm/COSMOtherm/DATABASE-COSMO/BP-TZVPD-FINE EHFile
+Title
+f=acetonitrile_c0
+f=mol.cosmo fdir=. efH=mol.energy
+tc=25 Henry=1 GSOLV
+

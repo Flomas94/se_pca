@@ -1,0 +1,9 @@
+ctd=BP_TZVPD_FINE_21.ctd cdir=/scrcluster/fmast/programme/cosmotherm/COSMOtherm/CTDATA-FILES
+fdir=/scrcluster/fmast/programme/cosmotherm/COSMOtherm/DATABASE-COSMO/BP-TZVPD-FINE VPFILE        # Global command line
+!Automatic logD (Octanol-Water Partition Coefficient with Dissociation Correction)           # Comment line
+f=h2o_c0                                                                                      # Compound input Solvent 1
+[ f=1-octanol_c0                                                                              # Compound input Solvent 2 Conformer 1
+  f=1-octanol_c1 ]                                                                            # Compound input Solvent 2 Conformer 2
+f=mol.cosmo fdir=. efH=mol.energy
+tc=25 logp={1 2} xl1={1 0} xl2={0.274 .726} vq=0.1505 # Automatic logPOW calculation with Dissociation Correction
+tc=25 logp={1 2} xl1={1 0} xl2={0 1} # Automatic logPOW calculation with Dissociation Correction

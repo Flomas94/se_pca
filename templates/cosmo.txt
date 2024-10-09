@@ -1,0 +1,21 @@
+infinity
+
+
+
+
+
+
+
+
+
+
+
+
+r all b
+*
+out.cosmo
+n
+
+EOF
+
+sed -i '1s/^/$cosmo_isorad\n/' control

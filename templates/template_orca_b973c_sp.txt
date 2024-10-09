@@ -1,0 +1,4 @@
+!B97-3c DEFGRID2 PAL{{ orca_ncpu }}
+ %MaxCore {{ orca_membase }}
+*xyzfile {{ charge }} {{ multiplicity }} mol.xyz
+ 

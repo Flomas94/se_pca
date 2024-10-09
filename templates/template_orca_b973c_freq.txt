@@ -1,0 +1,9 @@
+!B97-3c PAL{{ orca_ncpu }}
+!DEFGRID2 TightSCF
+!AnFreq
+%scf
+ MaxIter    400
+end
+ %MaxCore {{ orca_membase }}
+*xyzfile {{ charge }} {{ multiplicity }} mol.xyz
+ 

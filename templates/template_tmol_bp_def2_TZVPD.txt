@@ -1,0 +1,36 @@
+
+
+a coord
+ired
+*
+b all def2-TZVPD
+*
+eht
+
+{{charge}}
+y
+
+dft
+on
+func b-p
+grid m4
+
+ri
+on
+m 6144
+jbas
+b all def2-TZVP
+*
+
+
+marij
+
+
+dsp
+bj
+
+scf
+iter
+300
+
+*

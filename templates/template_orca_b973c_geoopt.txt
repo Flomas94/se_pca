@@ -1,0 +1,10 @@
+!B97-3c PAL{{ orca_ncpu }}
+!DEFGRID2 TightSCF SlowConv
+!Opt MINIPRINT
+%scf
+ MaxIter    400
+ ConvForced 1
+end
+ %MaxCore {{ orca_membase }}
+*xyzfile {{ charge }} {{ multiplicity }} mol.xyz
+ 

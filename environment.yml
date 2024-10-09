@@ -1,0 +1,9 @@
+name: se_calculation
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - fireworks
+  - jinja2
+  - numpy
+  - openbabel

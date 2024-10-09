@@ -1,0 +1,10 @@
+!B97-3c DEFGRID2 PAL{{ orca_ncpu }}
+%elprop
+ Dipole true
+ Quadrupole true
+ Polar 1
+ EField 1e-5
+end
+ %MaxCore {{ orca_membase }}
+*xyzfile {{ charge }} {{ multiplicity }} mol.xyz
+ 
